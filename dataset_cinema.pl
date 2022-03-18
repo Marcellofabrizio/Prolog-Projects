@@ -2148,3 +2148,15 @@ actress(an_american_rhapsody, gnes_b_nfalvy, helen).
 actor(an_american_rhapsody, zolt_n_seress, george).
 actress(an_american_rhapsody, klaudia_szab, maria_at_4).
 actor(an_american_rhapsody, zsolt_zagoni, russian_soldier).
+
+
+% lançado_entre(M, Y1, Y2) :-
+%     movie(M, ANO),
+%     ANO &gt;= Y1,
+%     ANO =&lt; Y2.
+
+% mesmo_ano(M1,M2) :-
+%     movie(M1,ANO1),
+%     movie(M2,ANO2),
+%     M1 \= M2,
+%     ANO1 = ANO2.
