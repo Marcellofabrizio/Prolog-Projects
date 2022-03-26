@@ -81,8 +81,9 @@ mae(X,Y):-
     sexo(fem, X).
 
 tio(X,Y):-
-    pai(Z,Y),
-    irmao(Z,X).
+    sexo(masc,X),
+    pais(Z,Y),
+    irmaos(Z,X).
 
 irmao(X,Y):-
     X\=Y,
